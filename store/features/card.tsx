@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { useEffect } from "react";
 
 const storeData = async (value: object[]) => {
   try {
@@ -9,21 +8,6 @@ const storeData = async (value: object[]) => {
     console.log(e)
   }
 }
-
-
-
-
-interface data_type {
-  id: number
-  title: string
-  status: number,
-  text: string,
-  img: string
-}
-
-
-
-
 
 const initialState: [] = []
 

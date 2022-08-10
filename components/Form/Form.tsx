@@ -2,12 +2,10 @@ import React, { useState } from 'react';
 import {
   StyleSheet,
   View,
-  Button,
   TextInput,
   Text,
   TouchableOpacity,
   Image,
-  Platform,
 } from 'react-native';
 import { Formik } from 'formik';
 import SelectCountryScreen from '../DropDown/DropDown';

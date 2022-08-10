@@ -18,6 +18,7 @@ export default function Header({ type, goBack }: header_types) {
           </TouchableOpacity>
 
           <Text style={styles.create_container_title}>Create new post</Text>
+          <View style={styles.create_container_right}></View>
         </View>
       );;
     default:
@@ -56,10 +57,12 @@ const styles = StyleSheet.create({
     color: "#151C26",
     lineHeight: 24,
     textAlign: 'center',
-    flex: 4
+    flex: 10
   },
   create_container_icon: {
     flex: 1
+  },
+  create_container_right: {
+    flex: 1
   }
-
 });

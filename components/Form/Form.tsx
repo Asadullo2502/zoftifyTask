@@ -59,6 +59,7 @@ export default function Form({ goBack }: Form_type) {
                 value={props.values.title}
                 placeholder="Title"
                 onChangeText={props.handleChange('title')}
+                placeholderTextColor="#8A8C90" 
               />
 
               <SelectCountryScreen setStatus={setStatus} status={status} />
@@ -70,6 +71,7 @@ export default function Form({ goBack }: Form_type) {
                 placeholder="Description"
                 onChangeText={props.handleChange('text')}
                 textAlignVertical="top"
+                placeholderTextColor="#8A8C90" 
               />
             </View>
 
